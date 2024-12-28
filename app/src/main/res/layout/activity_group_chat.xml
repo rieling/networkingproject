@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_group_chat.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display the group code at the top -->
+    <TextView
+        android:id="@+id/displayGroupCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group Code: "
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="8dp"/>
+
+    <!-- List of group members -->
+    <ListView
+        android:id="@+id/listMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"/>
+
+    <!-- Input field for typing messages -->
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a message"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Send message button -->
+    <Button
+        android:id="@+id/btnSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+    <!-- Leave group button -->
+    <Button
+        android:id="@+id/btnLeaveGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave Group"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

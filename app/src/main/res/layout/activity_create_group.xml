@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_create_group.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <!-- Display group code -->
+    <TextView
+        android:id="@+id/displayGroupCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group Code: "
+        android:textSize="24sp" />
+
+    <!-- Button to create the group -->
+    <Button
+        android:id="@+id/btnCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:layout_marginTop="32dp" />
+</LinearLayout>

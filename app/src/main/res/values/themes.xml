@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.NetworkingProject" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- You can customize your theme here -->
+        <!-- For example, setting the primary color, text color, etc. -->
+    </style>
+</resources>
